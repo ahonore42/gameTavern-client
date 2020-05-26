@@ -103,7 +103,7 @@ const GameInfo = props => {
   	}
 
   	const getGames = () => {
-  		console.log('get games')
+  		console.log('get games and beer')
   		console.log(props.user)
   		fetch(process.env.REACT_APP_SERVER_URL + 'auth/userGames/' + props.user.username, {
 	      method: 'GET',
